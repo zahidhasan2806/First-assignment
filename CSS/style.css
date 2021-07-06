@@ -1,0 +1,156 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0%;
+}
+.main-menu{
+    text-align: right;
+    background-color: black;
+    padding: 20px;
+}
+.main-menu a{
+    text-decoration : none; 
+    font-size: 20px;
+    color:  rgb(216, 121, 37);  
+    margin: 20px;   
+    font-weight: 700; 
+}
+section{
+    height: 500px;
+    padding-bottom: 120px;
+    width: 100%;
+    margin-top: 50px;
+}
+h1{
+    color: rgb(75, 73, 73);
+    font-size: 50px;
+    font-weight: 800;
+
+}
+span{
+    color: rgb(216, 121, 37);
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+.banner{
+    display: flex;
+    
+}
+.banner-text{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.banner-text p{
+    width: 40%;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+button{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border: 20px white;
+    border-radius: 35px;
+    margin: 20px ;
+    padding :15px 35px ;
+    box-shadow: 3px 3px 3px gray ;
+}
+.myself{
+    display: flex;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myself-details{
+    
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.myself-details p{
+    padding-bottom: 15px;
+    width: 50%;
+}
+.myself-img{
+    width: 50%;
+    margin-top: 10px;
+}
+.myself-img img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+}
+
+
+.my-link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border: 20px white;
+    border-radius: 25px;
+    margin: 70px ;
+    padding: 15px 35px;
+    box-shadow: 3px 3px 3px gray ;
+}
+.recipies{
+    text-align: center;
+    height: 700px; 
+    
+}
+
+.recipies-item{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.recipe-item01{
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgb(219, 211, 211);
+    border-radius: 20px;
+    border-image-slice: 1;
+    margin: 50px;
+    padding-top: 30px;
+}
+.recipe-item01 img{
+    width: 90%;
+    height: 280px;
+    
+
+}
+.recipe-item01 h2{
+    text-align: left;
+    margin: 35px 20px;
+
+}
+.recipe-item01 p{
+    text-align: left;
+    margin: 35px 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 200px;
+
+}
+footer h1{
+    padding-top: 40px;
+}
+footer p{
+    color: gray;
+    font-weight: 250px;
+
+}
